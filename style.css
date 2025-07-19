@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 10px 20px;
+}
+
+header .logo {
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.welcome {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.welcome button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.headquarters {
+  background: #f1f1f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.city {
+  background: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background: #fff;
+  padding: 40px 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form select,
+form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.info {
+  width: 45%;
+  background: #f9f9f9;
+  padding: 15px;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
